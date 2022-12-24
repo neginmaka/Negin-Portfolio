@@ -11462,3 +11462,7 @@ header.masthead h1, header.masthead .h1 {
   height : 100px;
   padding: 1rem;
 }
+
+.spacing {
+  padding-bottom: 1rem;
+}
