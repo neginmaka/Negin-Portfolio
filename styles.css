@@ -11458,11 +11458,17 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .profile-pic {
-  width : 100px;
-  height : 100px;
-  padding: 1rem;
+  width : 80px;
+  height : 80px;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .spacing {
   padding-bottom: 1rem;
+}
+
+ul {
+  list-style-type: square;
 }
