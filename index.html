@@ -67,7 +67,11 @@
     <div class="container px-4 px-lg-5 h-100">
         <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-8 align-self-end">
-                <h1 class="text-white font-weight-bold">Welocome to Negin's Portfolio</h1>
+                <div class="text-white font-weight-bold">
+                    <h1>Welcome to</h1>
+                    <h1>Negin's Portfolio</h1>
+                </div>
+
                 <hr class="divider">
             </div>
             <div class="col-lg-8 align-self-baseline">
@@ -155,7 +159,7 @@
                 </div>
             </div>
 
-            <div class="card mb-3 col">
+            <div class="card mb-3 col mx-3">
                 <div class="card-img-top d-flex align-items-center bg-light card-header">
                     <p class="col p-2 m-0">Project - Digital Business Card</p>
                     <div class="col-1 p-2 m-0">
@@ -169,14 +173,18 @@
                     <div class="card-text">
                         <p>This is a project that utilizes the <strong>Flask framework</strong> in
                             Python to create a web application.</p>
-                        <p>The application uses various modules such as <strong>secrets</strong>, <strong>flask</strong>, <strong>requests</strong>, <strong>PIL</strong>,
-                            <strong>flask_bootstrap</strong>, <strong>flask_login</strong>, and <strong>flask_sqlalchemy</strong> to handle various functionality
+                        <p>The application uses various modules such as <strong>secrets</strong>, <strong>flask</strong>,
+                            <strong>requests</strong>, <strong>PIL</strong>,
+                            <strong>flask_bootstrap</strong>, <strong>flask_login</strong>, and
+                            <strong>flask_sqlalchemy</strong> to handle various functionality
                             such as authentication, image compression and database management.</p>
-                            <p>The application uses Okta for user authentication, and has tables for 'users' and 'links' to
-                            store user information and links respectively. </p>
-                            <p>The 'compress_image' function is used to optimize the size of an uploaded image, while the
-                            'format_links' function is used to format the links associated with a </p>
-                            <p>The application also uses the bootstrap framework for styling.</strong>
+                        <p>The application uses Okta for user authentication, and has tables for <strong>users</strong>
+                            and <strong>links</strong> to
+                            store user information and links respectively.</p>
+                        <p>The <strong>compress_image</strong> function is used to optimize the size of an uploaded
+                            image, while the
+                            <strong>format_links</strong> function is used to format the links associated with a </p>
+                        <p>The application also uses the bootstrap framework for styling.</strong>
                             for different users.</p>
                     </div>
 
@@ -201,55 +209,125 @@
         </div>
 
         <!-- Blog Project-->
-        <div class="row g-0">
-            <div class="col-md-6 px-3 text-center">
-                <a class="portfolio-box" href="http://neginmakadibucard.pythonanywhere.com/" rel="noreferrer noopener"
-                   target="_blank" title="Negin's Blog">
-                    <p class="lead">Click for demo</p>
-                    <img alt="DiBuCard" class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg">
-                    <div class="portfolio-box-caption">
-                        <div class="project-category text-white-50">Project 2</div>
-                        <div class="project-name">Digital Business Card</div>
+        <div class="container-fluid p-3">
+            <div class="row g-0">
+                <div class="card mb-3 col mx-3">
+                    <div class="card-body mx-auto">
+                        <a class="portfolio-box" href="http://neginmakadibucard.pythonanywhere.com/"
+                           rel="noreferrer noopener"
+                           target="_blank" title="Negin's Blog">
+                            <img alt="Negin's Blog" class="img-fluid spacing"
+                                 src="assets/img/portfolio/thumbnails/6.jpg">
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Project</div>
+                                <div class="project-name">Negin's Blog</div>
+                            </div>
+                        </a>
+
                     </div>
-                </a>
+                </div>
+
+                <div class="card mb-3 col mx-3">
+                    <div class="card-img-top d-flex align-items-center bg-light card-header">
+                        <p class="col p-2 m-0">Project - Negin's Blog</p>
+                        <div class="col-1 p-2 m-0">
+                            <a href="https://github.com/neginmaka/negin-blog" rel="noreferrer noopener"
+                               target="_blank"><i
+                                    class="bi bi-github fs-3 text-black"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <h5 class="card-title">Project Highlights</h5>
+                        <div class="card-text">
+                            <p class="card-text">Used native authentication of flask,
+                                <strong>CRUD operation</strong> for blog entry, and custom styling.</p>
+                            <p>Also, created different <strong>regular
+                                permission levels</strong>
+                                for different users.</p>
+                        </div>
+
+                        <h5 class="card-title">Used Technologies</h5>
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Python</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ HTML & CSS</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Flask</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ SQLite</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jinja</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ SQLAlchemy</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ REST API</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Postman</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ BootStrap</div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jira</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="card col-sm-6 col-md-6 col-lg-6">
+
+<!-- Portfolio Project-->
+    <div class="container-fluid p-3">
+        <div class="row g-0">
+            <div class="card mb-3 col mx-3">
+                <div class="card-body mx-auto">
+                    <a class="portfolio-box" href="http://neginmakadibucard.pythonanywhere.com/"
+                       rel="noreferrer noopener"
+                       target="_blank" title="DiBuCard">
+                        <img alt="DiBuCard" class="img-fluid spacing"
+                             src="assets/img/portfolio/thumbnails/1.png">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Project</div>
+                            <div class="project-name">Portfolio</div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="card mb-3 col mx-3">
                 <div class="card-img-top d-flex align-items-center bg-light card-header">
-                    <p class="col p-2 m-0">Project 2 - Digital Business Card</p>
+                    <p class="col p-2 m-0">Project - Portfolio</p>
                     <div class="col-1 p-2 m-0">
-                        <a href="https://github.com/neginmaka/negin-blog" rel="noreferrer noopener"
+                        <a href="https://github.com/neginmaka/Negin-Portfolio" rel="noreferrer noopener"
                            target="_blank"><i
-                                class="bi bi-github fs-3 text-black "></i></a>
+                                class="bi bi-github fs-3 text-black"></i></a>
                     </div>
                 </div>
                 <div class="card-body mx-auto">
                     <h5 class="card-title">Project Highlights</h5>
-                    <p class="card-text">Used native authentication of flask,
-                        CRUD operation for blog entry, and custom styling. Also, created different<strong> regular
-                            permission levels</strong>
-                        for different users.</p>
-                    <h5 class="card-title">Used Technologies</h5>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ Python</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ HTML & CSS</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ Flask</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ SQLite</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ Jinja</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ SQLAlchemy</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ REST API</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ Postman</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ BootStrap</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">❖ Jira</div>
-                        </div>
+                    <div class="card-text">
+                        <p>This is a project that utilizes the <strong>Flask framework</strong> in
+                            Python to create a web application.</p>
+                        <p>The application uses various modules such as <strong>secrets</strong>, <strong>flask</strong>,
+                            <strong>requests</strong>, <strong>PIL</strong>,
+                            <strong>flask_bootstrap</strong>, <strong>flask_login</strong>, and
+                            <strong>flask_sqlalchemy</strong> to handle various functionality
+                            such as authentication, image compression and database management.</p>
+                        <p>The application uses Okta for user authentication, and has tables for <strong>users</strong>
+                            and <strong>links</strong> to
+                            store user information and links respectively.</p>
+                        <p>The <strong>compress_image</strong> function is used to optimize the size of an uploaded
+                            image, while the
+                            <strong>format_links</strong> function is used to format the links associated with a </p>
+                        <p>The application also uses the bootstrap framework for styling.</strong>
+                            for different users.</p>
                     </div>
 
+                    <h5 class="card-title">Used Technologies</h5>
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Python</div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ HTML & CSS</div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ BootStrap</div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jira</div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
 <!-- Exploring Skills-->
 <section class="page-section bg-dark text-white">
@@ -292,7 +370,8 @@
             <div class="col-lg-8 col-xl-6 text-center">
                 <h2 class="mt-0">Let's Get In Touch!</h2>
                 <hr class="divider">
-                <p class="text-muted mb-5">Have an exciting project where you need some help? Send me over a message,
+                <p class="text-muted mb-5">Have an exciting project where you need some help? Send me over a
+                    message,
                     and let's chat.</p>
             </div>
         </div>
@@ -307,7 +386,7 @@
 
                 <!-- Email Button-->
                 <div class="d-grid">
-                    <a class="btn btn-primary btn-xl" href="mailto:negin.maka@gmail.com?subject=From%20DBC"
+                    <a class="btn btn-primary btn-xl" href="mailto:negin.maka@gmail.com?subject=From%20Portfolio"
                        id="submitButton" type="submit">Email Me</a>
                 </div>
             </div>
