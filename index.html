@@ -142,14 +142,14 @@
 <div id="portfolio">
     <!-- DiBuCard Project-->
     <div class="container-fluid p-3">
-        <div class="row g-0">
-            <div class="card mb-3 col mx-3">
+        <div class="row g-0 ">
+            <div class="card mb-3 col mx-2">
                 <div class="card-body mx-auto">
                     <a class="portfolio-box" href="http://neginmakadibucard.pythonanywhere.com/"
                        rel="noreferrer noopener"
                        target="_blank" title="DiBuCard">
-                        <img alt="DiBuCard" class="img-fluid spacing"
-                             src="assets/img/portfolio/thumbnails/1.png">
+                        <img alt="DiBuCard" class="img-fluid spacing" src="assets/img/portfolio/thumbnails/1.png"
+                             width="1200">
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50">Project</div>
                             <div class="project-name">Digital Business Card</div>
@@ -159,7 +159,7 @@
                 </div>
             </div>
 
-            <div class="card mb-3 col mx-3">
+            <div class="card mb-3 mx-2 col-sm-6 col-md-6 mx-auto">
                 <div class="card-img-top d-flex align-items-center bg-light card-header">
                     <p class="col p-2 m-0">Project - Digital Business Card</p>
                     <div class="col-1 p-2 m-0">
@@ -171,111 +171,136 @@
                 <div class="card-body mx-auto">
                     <h5 class="card-title">Project Highlights</h5>
                     <div class="card-text">
+                        <p class="text-success"><i><strong>It's my most complete project!</strong></i></p>
                         <p>This is a project that utilizes the <strong>Flask framework</strong> in
-                            Python to create a web application.</p>
+                            Python to create a web application</p>
                         <p>The application uses various modules such as <strong>secrets</strong>, <strong>flask</strong>,
                             <strong>requests</strong>, <strong>PIL</strong>,
                             <strong>flask_bootstrap</strong>, <strong>flask_login</strong>, and
                             <strong>flask_sqlalchemy</strong> to handle various functionality
                             such as authentication, image compression and database management.</p>
-                        <p>The application uses Okta for user authentication, and has tables for <strong>users</strong>
-                            and <strong>links</strong> to
-                            store user information and links respectively.</p>
-                        <p>The <strong>compress_image</strong> function is used to optimize the size of an uploaded
-                            image, while the
-                            <strong>format_links</strong> function is used to format the links associated with a </p>
-                        <p>The application also uses the bootstrap framework for styling.</strong>
-                            for different users.</p>
+                        <h5 class="card-title">Authentication and Security</h5>
+                        <ul>
+                            <li>Integration with <strong>Okta's identity service</strong></li>
+                            <li>Integration with <strong>Google's IDP</strong> using Okta</li>
+                            <li>Improved user experiences, efficient flow, and secure access for users</li>
+                            <li>User information is synchronized with the app's internal database</li>
+                        </ul>
+                        <h5 class="card-title">Testing</h5>
+                        <ul>
+                            <li><strong>Functional Testing</strong> using <code>pytest</code></li>
+                            <li><strong>End-to-end Testing</strong> using <code>unittest</code> and
+                                <code>Selenium</code></li>
+                        </ul>
                     </div>
 
-                    <h5 class="card-title">Used Technologies</h5>
+                    <h5 class="card-title">Tools, Languages & Technologies</h5>
                     <div class="container">
-                        <div class="row mt-3">
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Python</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ HTML & CSS</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Flask</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ SQLite</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jinja</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ SQLAlchemy</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ REST API</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Postman</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ BootStrap</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jira</div>
+                        <div class="row">
+                            <div class="col col-md-5">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>HTML & CSS</li>
+                                    <li>Flask</li>
+                                    <li>SQLite</li>
+                                    <li>SQLAlchemy</li>
+                                </ul>
+                            </div>
+                            <div class="col col-md-5">
+                                <ul>
+                                    <li>Jinja2</li>
+                                    <li>RESTful API</li>
+                                    <li>Postman</li>
+                                    <li>Bootstrap</li>
+                                    <li>Selenium</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Blog Project-->
-        <div class="container-fluid p-3">
-            <div class="row g-0" hidden>
-                <div class="card mb-3 col mx-3">
-                    <div class="card-body mx-auto">
-                        <a class="portfolio-box" href="http://neginmakadibucard.pythonanywhere.com/"
-                           rel="noreferrer noopener"
-                           target="_blank" title="Negin's Blog">
-                            <img alt="Negin's Blog" class="img-fluid spacing"
-                                 src="assets/img/portfolio/thumbnails/2.png">
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Project</div>
-                                <div class="project-name">Negin's Blog</div>
-                            </div>
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="card mb-3 col mx-3">
-                    <div class="card-img-top d-flex align-items-center bg-light card-header">
-                        <p class="col p-2 m-0">Project - Negin's Blog</p>
-                        <div class="col-1 p-2 m-0">
-                            <a href="https://github.com/neginmaka/negin-blog" rel="noreferrer noopener"
-                               target="_blank"><i
-                                    class="bi bi-github fs-3 text-black"></i></a>
+    <!-- Blog Project-->
+    <div class="container-fluid p-3">
+        <div class="row g-0" hidden>
+            <div class="card mb-3 col mx-2">
+                <div class="card-body mx-auto">
+                    <a class="portfolio-box" href="http://neginmakadibucard.pythonanywhere.com/"
+                       rel="noreferrer noopener"
+                       target="_blank" title="Negin's Blog">
+                        <img alt="Negin's Blog" class="img-fluid spacing"
+                             src="assets/img/portfolio/thumbnails/2.png">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Project</div>
+                            <div class="project-name">Negin's Blog</div>
                         </div>
-                    </div>
-                    <div class="card-body mx-auto">
-                        <h5 class="card-title">Project Highlights</h5>
-                        <div class="card-text">
-                            <p class="card-text">Used native authentication of flask,
-                                <strong>CRUD operation</strong> for blog entry, and custom styling.</p>
-                            <p>Also, created different <strong>regular
-                                permission levels</strong>
-                                for different users.</p>
-                        </div>
+                    </a>
 
-                        <h5 class="card-title">Used Technologies</h5>
-                        <div class="container">
-                            <div class="row mt-3">
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Python</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ HTML & CSS</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Flask</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ SQLite</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jinja</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ SQLAlchemy</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ REST API</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Postman</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ BootStrap</div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jira</div>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
 
-<!-- Portfolio Project-->
+            <div class="card mb-3 mx-2 col-sm-6 col-md-6 mx-auto">
+                <div class="card-img-top d-flex align-items-center bg-light card-header">
+                    <p class="col p-2 m-0">Project - Negin's Blog</p>
+                    <div class="col-1 p-2 m-0">
+                        <a href="https://github.com/neginmaka/negin-blog" rel="noreferrer noopener"
+                           target="_blank"><i
+                                class="bi bi-github fs-3 text-black"></i></a>
+                    </div>
+                </div>
+                <div class="card-body mx-auto">
+                    <h5 class="card-title">Project Highlights</h5>
+                    <div class="card-text">
+                        <p class="card-text">Used native authentication of flask,
+                            <strong>CRUD operation</strong> for blog entry, and custom styling.</p>
+                        <p>Also, created different <strong>regular
+                            permission levels</strong>
+                            for different users.</p>
+                    </div>
+
+                    <h5 class="card-title">Used Technologies</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-md-5">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>HTML & CSS</li>
+                                    <li>Flask</li>
+                                    <li>SQLite</li>
+                                    <li>SQLAlchemy</li>
+                                </ul>
+                            </div>
+                            <div class="col col-md-5">
+                                <ul>
+                                    <li>Jinja2</li>
+                                    <li>RESTful API</li>
+                                    <li>Postman</li>
+                                    <li>Bootstrap</li>
+                                    <li>Selenium</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Project-->
     <div class="container-fluid p-3">
         <div class="row g-0">
-            <div class="card mb-3 col mx-3">
+            <div class="card mb-3 col mx-2">
                 <div class="card-body mx-auto">
                     <a class="portfolio-box" href="https://negin-maka.netlify.app/"
                        rel="noreferrer noopener"
                        target="_blank" title="DiBuCard">
-                        <img alt="DiBuCard" class="img-fluid spacing"
-                             src="assets/img/portfolio/thumbnails/3.png">
+                        <img alt="DiBuCard" class="img-fluid spacing" height="auto"
+                             src="assets/img/portfolio/thumbnails/3.png"
+                             width="1200">
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50">Project</div>
                             <div class="project-name">Portfolio</div>
@@ -285,7 +310,7 @@
                 </div>
             </div>
 
-            <div class="card mb-3 col mx-3">
+            <div class="card mb-3 mx-2 col-sm-6 col-md-6 mx-auto">
                 <div class="card-img-top d-flex align-items-center bg-light card-header">
                     <p class="col p-2 m-0">Project - Portfolio</p>
                     <div class="col-1 p-2 m-0">
@@ -316,18 +341,33 @@
 
                     <h5 class="card-title">Used Technologies</h5>
                     <div class="container">
-                        <div class="row mt-3">
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Python</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ HTML & CSS</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ BootStrap</div>
-                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-2">❖ Jira</div>
+                        <div class="row">
+                            <div class="col col-md-5">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>HTML & CSS</li>
+                                    <li>Flask</li>
+                                    <li>SQLite</li>
+                                    <li>SQLAlchemy</li>
+                                </ul>
+                            </div>
+                            <div class="col col-md-5">
+                                <ul>
+                                    <li>Jinja2</li>
+                                    <li>RESTful API</li>
+                                    <li>Postman</li>
+                                    <li>Bootstrap</li>
+                                    <li>Selenium</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
-
+    </div>
+</div>
 
 <!-- Exploring Skills-->
 <section class="page-section bg-dark text-white">
@@ -404,6 +444,7 @@
             </div>
         </div>
     </div>
+
 </section>
 <!-- Footer-->
 <footer class="bg-light py-5">
